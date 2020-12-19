@@ -10,5 +10,17 @@ repositories {
 }
 
 dependencies {
-    testCompile group: 'junit', name: 'junit', version: '4.12'
+    implementation 'junit:junit:4.12'
+
+    // https://mvnrepository.com/artifact/junit/junit
+    compile group: 'junit', name: 'junit', version: '4.13.1'
+
+    // https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-core
+    compile group: 'org.apache.logging.log4j', name: 'log4j-core', version: '2.14.0'
+
+    // https://mvnrepository.com/artifact/com.thedeanda/lorem
+    compile group: 'com.thedeanda', name: 'lorem', version: '2.1'
+
+    // https://mvnrepository.com/artifact/org.projectlombok/lombok
+    compile group: 'org.projectlombok', name: 'lombok', version: '1.18.16'
 }
